@@ -157,31 +157,6 @@ public class WeightedGraph implements GraphInterface {
         return T;
     }
 
-    public ArrayList<Edge> Kruskal(){
-        ArrayList<Edge> ls = new ArrayList<>(Arrays.asList(this.edges()));
-        Collections.sort(ls);
-        ArrayList<Edge> result = new ArrayList<>();
-
-        ArrayList<Vertex> vertices = new ArrayList<>();
-
-        for(Edge e: ls){  // to select the smallest edge
-            if(!vertices.contains(e.getA()) && !vertices.contains(e.getB())){
-                vertices.add(e.getA());
-                vertices.add(e.getB());
-            }else if(vertices.contains(e.getA()) && vertices.contains(e.getB())){
-                result.add(e);
-                continue;
-            }else if(vertices.contains(e.getA())){
-                vertices.add(e.getB());
-                result.add(e);
-            }else if(vertices.contains(e.getB())){
-                vertices.add(e.getA());
-                result.add(e);
-            }
-        }
-
-        return result;
-    }
 
     public static Edge findtheMini(ArrayList<Edge> ls){
         Edge min = ls.get(0);
@@ -213,7 +188,7 @@ public class WeightedGraph implements GraphInterface {
         System.out.println(Arrays.toString(g.edges()));
         System.out.println(g.Dijkstra(1, 8));
         System.out.println(g.Prim());
-        System.out.println(g.Kruskal());
+
 
     }
 }
