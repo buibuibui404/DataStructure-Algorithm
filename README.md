@@ -7,11 +7,11 @@
 | GraphInterface     |  |  ✅  |
 | AdjacencyList      |Including DFS, BFS    |   ✅   |
 | Vertex |       |    ✅   |
-|   WeightedGraph | | Will be updated soon|Dijkstra's Algorithm & Prim's Algorithm will be added in very soon |
-| WeightedGraphInterface| |Coming soon
-|Pair||Coming soon
-|   WeightEdge||Coming soon
-|WeightedVertex||Coming soon
+|   WeightedGraph |Including Dijkstra's Algorithm & Prim's Algorithm | ✅  | To simplify the code and add Kruskal Algorithm
+|WeightedGraphInterface| |✅  |
+|Pair||✅  |
+|   WeightEdge||✅  |
+|WeightedVertex||✅  |
 #### HashMap
 | Name        | Description | Status  |Next |
 | ------------- |:-------------| -----| -----------|
