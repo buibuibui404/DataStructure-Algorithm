@@ -12,12 +12,13 @@
 |Pair||✅  |
 |   WeightEdge||✅  |
 |WeightedVertex||✅  |
-#### HashMap
+#### Divide and Conquer
 | Name        | Description | Status  |Next |
 | ------------- |:-------------| -----| -----------|
-| Separate Chaining|    |Coming Soon
-|Linear Probing|    |   Coming Soon
-|Cuckoo hashing|    |Coming Soon
+|BinarySearch|  |✅  |
+|MaximaSet| |✅  |
+|MergeSort| |✅   |
+|QuickSort| | Coming Soon|
 #### PriorityQ
 | Name        | Description | Status  |Next |
 | ------------- |:-------------| -----| -----------|
@@ -47,3 +48,9 @@
 | The Fractional Knapsack Algorithm||Coming Soon
 | Task scheduling|| Coming Soon
 |Huffman's Algorithm|| Coming Soon
+#### HashMap
+| Name        | Description | Status  |Next |
+| ------------- |:-------------| -----| -----------|
+| Separate Chaining|    |Coming Soon
+|Linear Probing|    |   Coming Soon
+|Cuckoo hashing|    |Coming Soon
