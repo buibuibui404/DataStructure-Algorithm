@@ -1,5 +1,4 @@
 import java.util.*;
-import java.lang.*;
 
 public class BinarySearch{
     public static int search(List<Integer> ls, int aim){
@@ -30,6 +29,7 @@ public class BinarySearch{
         ls.add(8);
 
         System.out.println(ls);
+        System.out.println();
         System.out.println(search(ls,3));
         System.out.println(search(ls,0));
         System.out.println(search(ls,7));
