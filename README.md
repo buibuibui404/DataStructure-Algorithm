@@ -18,7 +18,9 @@
 |BinarySearch|  |✅  |
 |MaximaSet| |✅  |
 |MergeSort| |✅   |
-|QuickSort| | Coming Soon|
+|QuickSort| | ✅  
+|QuickSelection| |✅  |
+
 #### PriorityQ
 | Name        | Description | Status  |Next |
 | ------------- |:-------------| -----| -----------|
@@ -27,30 +29,41 @@
 |SelectionSort| |✅  
 |InsertionSort| |✅  
 
-#### Queues
-| Name        | Description | Status  |Next |
-| ------------- |:-------------| -----| -----------|
-|QueueInterface|    |Coming Soon
-|Queue| |Coming Soon
-#### Stacks
-| Name        | Description | Status  |Next |
-| ------------- |:-------------| -----| -----------|
-|StackInterface|| Comming Soon
-|Stack ||   Comming Soon
-#### Trees
-| Name        | Description | Status  |Next |
-| ------------- |:-------------| -----| -----------|
-|BST|   |  Coming Soon
-|TreeInterface||Coming Soon
 #### Greedy Algorithms
 | Name        | Description | Status  |Next |
 | ------------- |:-------------| -----| -----------|
 | The Fractional Knapsack Algorithm||Coming Soon
 | Task scheduling|| Coming Soon
 |Huffman's Algorithm|| Coming Soon
+
+#### Queues
+| Name        | Description | Status  |Next |
+| ------------- |:-------------| -----| -----------|
+|QueueInterface|    |Coming Soon
+|Queue| |Coming Soon
+
+#### Stacks
+| Name        | Description | Status  |Next |
+| ------------- |:-------------| -----| -----------|
+|StackInterface|| Coming Soon
+|Stack ||   Coming Soon
+
+#### Trees
+| Name        | Description | Status  |Next |
+| ------------- |:-------------| -----| -----------|
+|BST|   |  Coming Soon
+|AVLTree|
+|TreeInterface||Coming Soon
+
 #### HashMap
 | Name        | Description | Status  |Next |
 | ------------- |:-------------| -----| -----------|
 | Separate Chaining|    |Coming Soon
 |Linear Probing|    |   Coming Soon
 |Cuckoo hashing|    |Coming Soon
+
+#### List
+|Name   |   Description | Status| Next|
+| ------------- |:-------------| -----| -----------|
+|LinkedList
+|ArrayList
