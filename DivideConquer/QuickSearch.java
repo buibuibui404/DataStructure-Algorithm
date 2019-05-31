@@ -1,7 +1,5 @@
 import java.util.*;
 
-import javax.crypto.SealedObject;
-
 // given an unsorted list holding n numbers and a integer k, find the kth largest number
 
 public class QuickSearch{
@@ -14,7 +12,8 @@ public class QuickSearch{
         
         List<Integer> left = new LinkedList<>();
         List<Integer> equals = new LinkedList<>();
-        List<Integer> right = new LinkedList<>();  // LinkedList will have a better performance than ArrayList, since a lot of numbers may be added to the list.
+        List<Integer> right = new LinkedList<>();  // LinkedList will have a better performance than ArrayList, since a lot of numbers 
+                                                    //may be added to the list.
         
         for(int i : nums){
             if(i < n){
